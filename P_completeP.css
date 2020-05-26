@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+@media screen and (min-width:1025px){
+
+  body {
+    padding: 0;
+    margin: 0;
+  }
+
+  header label {
+    display: none;
+  }
+
+  header select {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 9em;
+    height: 30px;
+    border: 1px solid #008800;
+    border-radius: 10px;
+    padding-right: 10px;
+    padding-left: 20px;
+    margin-top: 3px;
+    margin-left: 10px;
+    color: #008800;
+  }
+
+  header .menubtn {
+    display: none;
+  }
+
+  header .navi {
+    width: 100%;
+    display: flex;
+    position: relative;
+    top: -22px;
+    padding-left: 20px;
+    background-color: #008800;
+    text-align: center;
+  }
+
+  header .navi li {
+    list-style-type: none;
+    border-bottom: 2px solid #008800;
+    padding: 10px;
+    margin-left: 18px;
+    font-size: 2vw;
+  }
+
+
+  header .navi li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  header .title h1 {
+    width: 100%;
+    text-align: center;
+    color: #008800;
+    border-bottom: 5px solid;
+    padding-right: 0;
+    padding-bottom: 10px;
+  }
+
+  header .yoyaku {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    border-top: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    margin: 0;
+    background-color:  #008800;
+  }
+
+  header .yoyaku a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+  }
+
+  main {
+    text-align: center;
+    height: 240px;
+  }
+
+  main h1 {
+    text-align: center;
+    font-size: 20px;
+    color: #008800;
+    padding-bottom: 40px;
+  }
+
+  main .messa {
+    border: 1px solid #008800;
+    border-radius: 3px;
+    padding: 10px 0px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 3px;
+  }
+  main .top {
+    border-top: 1px solid #008800;
+    border-bottom: 1px solid #008800;
+    margin-top: 20px;
+  }
+
+  main a {
+    text-decoration: none;
+    color: #008800;
+  }
+
+  footer #pageTop {
+    display: none;
+  }
+
+  footer .sub_info2 {
+    background-color: #008800;
+  }
+
+  footer .sub_info2 li {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  footer .sub_info2 p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    font-size: 20px;
+    border-top: 1px solid  #008800;
+    border-bottom: 2px solid #005500;
+    background-color:  #008800;
+    color: white;
+    text-align: center;
+  }
+
+  footer .sub_info2 {
+    background-color: #008800;
+    color: white;
+  }
+
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+
+  footer .info6 {
+    position: relative;
+    top: -14px;
+    padding-top: 0;
+    padding-bottom: 10px;
+  }
+
+  footer #All {
+    text-align: center;
+  }
+}
