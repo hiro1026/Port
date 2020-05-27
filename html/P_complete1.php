@@ -18,9 +18,9 @@ values('".$_POST['myouzi']."','".$_POST['name']."','".$_POST['post']."','".$_POS
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="P_completeM.css"/>
-  <link rel="stylesheet" type="text/css" href="P_completeT.css"/>
-  <link rel="stylesheet" type="text/css" href="P_complete.css"/>
+  <link rel="stylesheet" type="text/css" href="../com_css/P_completeM.css"/>
+  <link rel="stylesheet" type="text/css" href="../com_css/P_completeT.css"/>
+  <link rel="stylesheet" type="text/css" href="../com_css/P_completeP.css"/>
   <title>お問い合わせ完了画面</title>
  </head>
  <body>
@@ -32,9 +32,9 @@ values('".$_POST['myouzi']."','".$_POST['name']."','".$_POST['post']."','".$_POS
          <select name="select">
            <option value="" selected>Language</option>
            <option value="P_form.html">日本語</option>
-           <option value="P_form_En.html">English</option>
+           <option value="#">English</option>
          </select>
-         <script src="P_form.js"></script>
+         <script src="../js/P_form.js"></script>
       </form>
 
      </section>
@@ -55,7 +55,7 @@ values('".$_POST['myouzi']."','".$_POST['name']."','".$_POST['post']."','".$_POS
        </ul>
      </nav>
 
-     <script src="P_mobile_menu.js"></script>
+     <script src="../js/P_mobile_menu.js"></script>
 
    <main>
      <div class="messa">
@@ -69,7 +69,7 @@ values('".$_POST['myouzi']."','".$_POST['name']."','".$_POST['post']."','".$_POS
 
    <footer>
      <span id="pageTop"><a href="#"><img src="images/top3.png"/></a></span>
-     <script src="P_PageTop.js"></script>
+     <script src="../js/P_PageTop.js"></script>
        <div class="sub_info">
         <div class="sub_info2">
           <p><a href="#">EcoEco</a></p>

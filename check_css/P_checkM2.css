@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
-  @media screen and (max-width:415px){
+@media screen and (min-width:415px){
+@media screen and (max-width:601px){
 
   body {
     padding: 0;
@@ -34,41 +35,28 @@
     padding: 3px;
     background-color: #008800;
     color: white;
-    cursor: pointer;
-  }
-
-  header .navi {
-    display: none;
   }
 
   header .navi {
     width: 100%;
-    height: 285px;
+    display: none;
     position: absolute;
-    top: 109px;
-    left: 0px;
-    padding-left: 0;
-    margin-top: 9px;
-    background-color: #005500;
+    top: 102px;
+    left: -40px;
+    background-color: #003300;
   }
 
   header .navi li {
     list-style-type: none;
-    border-bottom: 2px solid #003300;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-  }
-
-  header .navi li:last-child {
-    border: none;
+    border: 1px solid;
+    padding: 10px;
   }
 
   header .navi li:first-child {
-    font-size: 19px;
+    font-size: 20px;
   }
 
-  header .navi li a {
+  header .navi a {
     text-decoration: none;
     color: white;
   }
@@ -83,47 +71,34 @@
   }
 
   header .yoyaku {
-    width: 100%;
-    height: 40px;
-    position: fixed;
-    bottom: 0;
+    position: absolute;
+    top: 57px;
+    right: 10px;
     border-top: 1px solid;
+    border-right: 1px solid;
     border-bottom: 1px solid;
-    padding-top: 20px;
-    padding-right: 15px;
-    padding-bottom: 15px;
-    padding-left: 60px;
+    border-left: 1px solid;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-left: 5px;
     margin: 0;
     background-color:  #008800;
-    cursor: pointer;
-  }
-
-  header .yoyaku:hover {
-    cursor: pointer;
-    opacity: 0.7;
   }
 
   header .yoyaku a {
-    width: 100%;
     text-align: center;
     text-decoration: none;
-    padding-left: 5px;
-    margin-right: 0;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: normal;
   }
 
   main {
+    height: 850px;
     text-align: center;
     margin-bottom: 80px;
-  }
-
-  main h2 {
-    text-align: center;
-  }
-
-  main .check {
-    text-align: center;
   }
 
   main .form {
@@ -132,11 +107,10 @@
     margin-right: 10px;
     margin-left: 10px;
     border-left: 2px solid #CCCCCC;
-    text-align: center;
   }
 
   main .form dt {
-    background-color: #DDDDDD;
+    background-color: #DDDDDD
   }
 
   main .form .name dt {
@@ -151,10 +125,6 @@
     margin-top: 20px;
     margin-left: 0;
     margin-bottom: 20px;
-  }
-
-  main .hissu {
-    text-align: right;
   }
 
   main .post dt {
@@ -198,16 +168,17 @@
   }
 
   main .comments dt {
-    border-top: 1px solid #CCCCCC;
+    border-top:1px solid #CCCCCC;
     border-bottom: 1px solid #CCCCCC;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
   }
 
+
   main .btn1 {
     position: absolute;
-    right: 30px;
+    right: 70px;
     padding-top: 0.5em;
     padding-right: 2em;
     padding-bottom: 0.5em;
@@ -223,7 +194,7 @@
 
   main .btn2 {
     position: absolute;
-    left: 5px;
+    left: 50px;
     padding-top: 0.5em;
     padding-right: 1em;
     padding-bottom: 0.5em;
@@ -237,13 +208,24 @@
     font-size: 17px;
   }
 
-  main #pageTop {
-    display: none;
+  main .button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+  }
+
+  main .button:active {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    border-bottom: none;
   }
 
   footer {
     padding: 0;
     margin: 0;
+  }
+
+  footer #pageTop {
+    display: none;
   }
 
   footer .sub_info2 {
@@ -266,6 +248,11 @@
     color: white;
   }
 
+  footer .sub_info2 li {
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+
   footer a {
     color: white;
     text-decoration: none;
@@ -280,5 +267,7 @@
 
   footer #All {
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 15px;
   }
+}
+}

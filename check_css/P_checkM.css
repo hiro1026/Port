@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
-
-@media screen and (max-width:414px){
+  @media screen and (max-width:415px){
 
   body {
     padding: 0;
@@ -65,7 +64,6 @@
     border: none;
   }
 
-
   header .navi li:first-child {
     font-size: 19px;
   }
@@ -116,45 +114,148 @@
   }
 
   main {
+    height: 820px;
     text-align: center;
-    }
-
-  main h1 {
-    text-align: center;
-    font-size: 20px;
-    color: #008800;
-    padding-bottom: 40px;
+    margin-bottom: 80px;
   }
 
-  main .messa {
-    border: 1px solid #008800;
-    border-radius: 3px;
-    padding: 10px 0px;
-    margin-top: 10px;
+  main h2 {
+    text-align: center;
+  }
+
+  main .check {
+    text-align: center;
+  }
+
+  main .form {
+    border-right: 2px solid #CCCCCC;
+    border-bottom: 2px solid #CCCCCC;
     margin-right: 10px;
-    margin-left: 3px;
-  }
-  main .top {
-    border-top: 1px solid #008800;
-    border-bottom: 1px solid #008800;
-    margin-top: 40px;
+    margin-left: 10px;
+    border-left: 2px solid #CCCCCC;
+    text-align: center;
   }
 
-  main a {
-    text-decoration: none;
-    color: #008800;
+  main .form dt {
+    background-color: #DDDDDD;
+  }
+
+  main .form .name dt {
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+
+  main .form dd {
+    margin-top: 20px;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+
+  main .hissu {
+    text-align: right;
+  }
+
+  main .post dt {
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+
+  main .jusyo dt {
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+
+  main .phone dt {
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+
+  main .mail dt {
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+
+  main .kenmei dt {
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+
+  main .comments dt {
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+
+  main .btn1 {
+    position: absolute;
+    right: 30px;
+    padding-top: 0.5em;
+    padding-right: 2em;
+    padding-bottom: 0.5em;
+    padding-left: 2em;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color:  #FF3333;
+    color: #FFF;
+    border-bottom: 4px solid  #627295;
+    border-radius: 7px;
+    font-size: 17px;
+  }
+
+  main .btn2 {
+    position: absolute;
+    left: 5px;
+    padding-top: 0.5em;
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    margin-top: 10px;
+    margin-left: 30px;
+    background-color: #3366CC;
+    color: #FFF;
+    border-bottom: 4px solid  #627295;
+    border-radius: 7px;
+    font-size: 17px;
+  }
+
+  main #pageTop {
+    display: none;
   }
 
   footer {
-    padding-top: 20px;
+    padding: 0;
+    margin: 0;
   }
 
-  footer #pageTop {
-    display: none;
+  footer a {
+    color: white;
+    text-decoration: none;
   }
 
   footer .sub_info2 {
     background-color: #008800;
+    background-color: #008800;
+    color: white;
   }
 
   footer .sub_info2 p {
@@ -168,20 +269,11 @@
     color: white;
   }
 
-  footer .sub_info2 {
-    background-color: #008800;
-    color: white;
-  }
-
   footer .sub_info2 li {
     padding-top: 18px;
     padding-bottom: 18px;
   }
 
-  footer a {
-    color: white;
-    text-decoration: none;
-  }
 
   footer .info6 {
     position: relative;
@@ -193,4 +285,3 @@
   footer #All {
     text-align: center;
   }
-}

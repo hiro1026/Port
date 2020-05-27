@@ -1,11 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (max-width:414px){
-
-  body {
-    padding: 0;
-    margin: 0;
-  }
+@media screen and (min-width:1025px){
 
   body {
     padding: 0;
@@ -31,42 +26,31 @@
   }
 
   header .menubtn {
-    position: absolute;
-    top: 3px;
-    right: 20px;
-    border: 1px solid #008800;
-    border-radius: 4px;
-    padding: 3px;
-    background-color: #008800;
-    color: white;
+    display: none;
   }
-
 
   header .navi {
     width: 100%;
-    display: none;
-    position: absolute;
-    top: 102px;
-    left: -40px;
-    background-color: #003300;
+    display: flex;
+    position: relative;
+    top: -22px;
+    padding-left: 20px;
+    background-color: #008800;
+    text-align: center;
   }
-
 
   header .navi li {
     list-style-type: none;
-    border: 1px solid;
+    border-bottom: 2px solid #008800;
     padding: 10px;
+    margin-left: 18px;
+    font-size: 2vw;
   }
 
-  header .navi li:first-child {
-    font-size: 20px;
-  }
-
-  header .navi a {
+  header .navi li a {
     text-decoration: none;
     color: white;
   }
-
 
   header .title h1 {
     width: 100%;
@@ -78,33 +62,34 @@
   }
 
   header .yoyaku {
-    width: 100%;
-    height: 40px;
-    position: fixed;
-    bottom: 0;
-    border-top: 1px solid #008800;
-    border-right: 1px solid #008800;
-    border-bottom: 1px solid #008800;
-    border-left: 1px solid #008800;
-    padding-top: 20px;
-    padding-right: 15px;
-    padding-bottom: 15px;
-    padding-left: 25px;
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    border-top: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-left: 5px;
     margin: 0;
     background-color:  #008800;
-    cursor: pointer;
   }
 
-
   header .yoyaku a {
-    width: 100%;
     text-align: center;
     text-decoration: none;
-    padding-left: 10px;
-    margin-right: 0;
     color: white;
-    font-size: 6vw;
+    font-size: 17px;
+  }
 
+  main {
+    height: 2600px;
+    text-align: center;
+    border: 1px solid #99FFCC;
+    margin: 60px 20px;
   }
 
   main .pankuzu ul {
@@ -123,19 +108,6 @@
 
   main .colo {
     color: #33CC99
-  }
-
-  main .pankuzu li::after {
-    content: ">";
-    position: relative;
-    bottom: 1px;
-    padding: 0px 10px;
-    color: #005500;
-  }
-
-  main .pankuzu li:last-child::after {
-    content: none;
-    color: #4DF9B9;
   }
 
   main .pankuzu h2 {
@@ -169,7 +141,6 @@
   }
 
   main .info2 h2 {
-    text-align: left;
     margin: 20px 56px;
     color: #008800;
   }
@@ -180,7 +151,6 @@
     border-radius: 6px;
     margin: 10px 20px;
     background-color: #99FFCC;
-
   }
 
   main .info3 p {
@@ -225,18 +195,18 @@
   }
 
   main .info4 h2 {
-    text-align: left;
+    text-align: center;
     margin: 20px 56px;
     color: #008800;
   }
 
-  main .list {
-    text-align: left;
-    margin-left: 0px;
-  }
-
   main .info4 p {
     margin: 30px auto;
+  }
+
+  main .list {
+    text-align: center;
+    margin: auto 10px;
   }
 
   main .list a {
@@ -249,8 +219,8 @@
     border: 1px solid;
     border-radius: 6px;
     padding: 10px 0px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 225px;
+    margin-left: 225px;
     background-color: #99FFCC;
   }
 
@@ -259,8 +229,8 @@
     border: 1px solid;
     border-radius: 6px;
     padding: 10px 0px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 225px;
+    margin-left: 225px;
     background-color: #99FFCC;
   }
 
@@ -269,8 +239,8 @@
     border: 1px solid;
     border-radius: 6px;
     padding: 10px 0px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 225px;
+    margin-left: 225px;
     background-color: #99FFCC;
   }
 
@@ -279,19 +249,18 @@
     border: 1px solid;
     border-radius: 6px;
     padding: 10px 0px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 225px;
+    margin-left: 225px;
     background-color: #99FFCC;
   }
 
   main #list5 {
-    width: 235px;
+    width: auto;
     padding: 10px 15px;
-    margin-left: 55px;
   }
 
-  main .info5 h2 {
-    text-align: left;
+  main .info5  {
+    text-align: center;
     margin: 20px 56px;
     color: #008800;
   }
@@ -343,7 +312,7 @@
   }
 
   main #hissu1 {
-    margin-left: 180px;
+    margin-left: 178px;
     background-color: #008800;
     color: white;
   }
@@ -353,7 +322,6 @@
     background-color: #008800;
     color: white;
   }
-
   main #hissu3 {
     margin-left: 190px;
     background-color: #008800;
@@ -361,11 +329,10 @@
   }
 
   main #hissu4 {
-    margin-left: 157px;
+    margin-left: 155px;
     background-color: #008800;
     color: white;
   }
-
 
   main #hissu5 {
     margin-left: 107px;
@@ -386,11 +353,11 @@
   }
 
   main .form {
-    border-right: 2px solid #CCCCCC;
+    border-right:2px solid #CCCCCC;
     border-bottom: 2px solid #CCCCCC;
+    border-left: 2px solid #CCCCCC;
     margin-right: 10px;
     margin-left: 10px;
-    border-left: 2px solid #CCCCCC;
   }
 
   main .form dt {
@@ -493,11 +460,11 @@
   }
 
   main .kenmei dt {
-    border-top: 1px solid #CCCCCC;
-    border-bottom: 1px solid #CCCCCC;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
+  border-top: 1px solid #CCCCCC;
+  border-bottom: 1px solid #CCCCCC;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
   }
 
   main select {
@@ -530,15 +497,16 @@
   }
 
   main .button {
-    width: 50%;
+    position: relative;
+    top: 110px;
     display: inline-block;
     padding-top: 0.5em;
-    padding-right: 5px;
+    padding-right: 2em;
     padding-bottom: 0.5em;
-    padding-left: 10px;
-    margin-right: 50px;
+    padding-left: 2em;
+    margin-right: 80px;
     margin-bottom: 20px;
-    margin-left: 5px;
+    margin-left: 80px;
     background-color:  #008800;
     color: #FFF;
     border-bottom: 4px solid  #627295;
@@ -557,49 +525,65 @@
     border-bottom: none;
   }
 
-  footer {
-    padding: 0;
-    margin: 0;
-  }
-
-  footer #pageTop {
-    display: none;
-  }
-
-  footer .sub_info2 {
-    background-color: #008800;
-  }
-
-  footer .sub_info2 p {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 30px;
-    font-size: 20px;
-    border-top: 1px solid  #008800;
-    border-bottom: 2px solid #005500;
-    background-color:  #008800;
-    color: white;
-  }
-
-  footer .sub_info2 {
-    background-color: #008800;
-    color: white;
-  }
-
-  footer a {
-    color: white;
-    text-decoration: none;
-  }
-
-  footer .info6 {
+  main #pageTop {
     position: relative;
-    top: -14px;
-    padding-top: 0;
-    padding-bottom: 10px;
+    top: 135px;
+    border: 1px solid #008800;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    background-color: #008800;
   }
 
-  footer #All {
-    text-align: center;
-    margin-bottom: 100px;
-  }
+footer {
+  padding: 0;
+  margin: 0;
+}
+
+footer .sub_info2 {
+  background-color: #008800;
+}
+
+footer .sub_info2 p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  font-size: 20px;
+  border-top: 1px solid  #008800;
+  border-bottom: 2px solid #005500;
+  background-color:  #008800;
+  color: white;
+}
+
+footer .sub_info2 {
+  background-color: #008800;
+  color: white;
+}
+
+footer .sub_info2 li {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer .info6 {
+  position: relative;
+  top: -14px;
+  padding-top: 0;
+  padding-bottom: 10px;
+}
+
+footer #All {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* footer ここまで */
+}
 }

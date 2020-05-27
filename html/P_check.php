@@ -7,10 +7,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="P_checkM.css"/>
-  <link rel="stylesheet" type="text/css" href="P_checkM2.css"/>
-  <link rel="stylesheet" type="text/css" href="P_checkT.css"/>
-  <link rel="stylesheet" type="text/css" href="P_checkP.css"/>
+  <link rel="stylesheet" type="text/css" href="../check_css/P_checkM.css"/>
+  <link rel="stylesheet" type="text/css" href="../check_css/P_checkM2.css"/>
+  <link rel="stylesheet" type="text/css" href="../check_css/P_checkT.css"/>
+  <link rel="stylesheet" type="text/css" href="../check_css/P_checkP.css"/>
   <title>お問い合わせ内容確認画面</title>
 </head>
 <body>
@@ -22,9 +22,9 @@
         <select name="select">
           <option value="" selected>Language</option>
           <option value="P_form.html">日本語</option>
-          <option value="P_form_En.html">English</option>
+          <option value="#">English</option>
         </select>
-        <script src="P_form.js"></script>
+        <script src="../js/P_form.js"></script>
      </form>
     </section>
 
@@ -43,7 +43,7 @@
      </ul>
     </nav>
 
-      <script src="P_mobile_menu.js"></script>
+      <script src="../js/P_mobile_menu.js"></script>
 
   </header>
 
@@ -123,16 +123,15 @@
 </div>
 </section>
 <span id="pageTop"><a href="#"><img src="images/top3.png"/></a></span>
-<script src="P_PageTop.js"></script>
+<script src="../js/P_PageTop.js"></script>
 </main>
 
-
-  <footer>
-    <span id="pageTop"><a href="#"><img src="images/top3.png"/></a></span>
-    <script src="P_PageTop.js"></script>
-      <div class="sub_info">
-       <div class="sub_info2">
-         <p><a href="#">EcoEco</a></p>
+<footer>
+  <span id="pageTop"><a href="#"><img src="images/top3.png"/></a></span>
+  <script src="../js/P_PageTop.js"></script>
+  <div class="sub_info">
+   <div class="sub_info2">
+    <p><a href="#">EcoEco</a></p>
         <ul class="info5">
           <li><a href="#">企業情報</a></li>
           <li><a href="#">採用情報</a></li>
