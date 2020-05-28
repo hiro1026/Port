@@ -1,0 +1,241 @@
+@charset "UTF-8";
+
+@media screen and (min-width:1025px){
+
+  body {
+    padding: 0;
+    margin: 0;
+  }
+
+  header label {
+    display: none;
+  }
+
+  header select {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 9em;
+    height: 30px;
+    border: 1px solid #008800;
+    border-radius: 10px;
+    padding-right: 10px;
+    padding-left: 20px;
+    margin-top: 3px;
+    margin-left: 10px;
+    color: #008800;
+  }
+
+  header .menubtn {
+    display: none;
+  }
+
+  header .navi {
+    width: 100%;
+    display: flex;
+    position: relative;
+    top: -22px;
+    padding-left: 20px;
+    background-color: #008800;
+    text-align: center;
+  }
+
+  header .navi li {
+    list-style-type: none;
+    border-bottom: 2px solid #008800;
+    padding: 10px;
+    margin-left: 18px;
+    font-size: 2vw;
+  }
+
+  header .navi li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  header .title h1 {
+    width: 100%;
+    text-align: center;
+    color: #008800;
+    border-bottom: 5px solid;
+    padding-right: 0;
+    padding-bottom: 10px;
+  }
+
+  header .yoyaku {
+    display: none;
+  }
+
+  main .pankuzu ul {
+    display: flex;
+  }
+
+  main .pankuzu  li {
+    list-style: none;
+    padding: 6px;
+  }
+
+  main .pankuzu li a {
+    text-decoration: none;
+    color: #008800;
+  }
+
+  main .colo {
+    color: #33CC99
+  }
+
+  main .pankuzu h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #008800;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    margin-right: 1px;
+    margin-left: 1px;
+  }
+
+  main .col {
+    border: 1px solid #008800;
+    border-radius: 4px;
+    margin: auto 8px;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  main .pro #yoko1 {
+    font-size: 30px;
+  }
+
+  main .pro #yoko2 {
+    position: absolute;
+    bottom: 364px;
+    left: 140px;
+    font-size: 20px;
+  }
+
+  main #tan {
+    font-size: 18px;
+  }
+
+  main #mail {
+    font-size: 18px;
+  }
+
+  main #yoko3 {
+    font-size: 25px;
+    background-color: #33CC99;
+    border-radius: 6px;
+  }
+
+  main .skill .yoko3 {
+    width: 80px;
+    border-radius: 6px;
+    background-color: #33CC99;
+    font-size: 25px;
+  }
+
+  main .group1 {
+    border: 1px solid #008800;
+  }
+
+  main .group1 #html {
+    border-radius: 4px;
+    background-color: #FF6600;
+    color: white;
+  }
+
+  main .group1 #css {
+    border-radius: 4px;
+    background-color: #0099FF;
+    color: white;
+  }
+
+  main .group2 {
+    border: 1px solid #008800;
+  }
+
+  main .group2 #script {
+    width: 90px;
+    border-radius: 4px;
+    background-color: #FFCC33;
+    color: white;
+  }
+
+  main .group3 {
+    border: 1px solid #008800;
+  }
+
+  main .group3 #php {
+    width: 110px;
+    border-radius: 4px;
+    background-color: #9999FF;
+    color: white;
+  }
+
+  main .group4 {
+    border: 1px solid #008800;
+  }
+
+  main .group4 #java {
+    width: 40px;
+    border-radius: 4px;
+    background-color: #FF3333;
+    color: white;
+  }
+
+  main .group5 {
+    border: 1px solid #008800;
+    border-radius: 4px;
+  }
+
+  main .group5 #git {
+    width: 24px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+  }
+
+  footer {
+    padding: 0;
+    margin: 0;
+  }
+
+  footer #pageTop {
+    display: none;
+  }
+
+  footer .sub_info2 {
+    background-color: #008800;
+  }
+
+  footer .sub_info2 p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    font-size: 20px;
+    border-top: 1px solid  #008800;
+    border-bottom: 2px solid #005500;
+    background-color:  #008800;
+    color: white;
+  }
+
+  footer .sub_info2 {
+    background-color: #008800;
+    color: white;
+  }
+
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+
+  footer .info6 {
+    position: relative;
+    top: -14px;
+    padding-top: 0;
+    padding-bottom: 10px;
+  }
+
+  footer #All {
+    text-align: center;
+  }
+}
