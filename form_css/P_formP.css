@@ -30,7 +30,6 @@
   }
 
   header .navi {
-    width: 100%;
     display: flex;
     position: relative;
     top: -22px;
