@@ -1,4 +1,4 @@
-$(document).ready(function(){
+  $(document).ready(function(){
   $('.next').on('click', function(event){
     event.preventDefault()
     $('.current').fadeOut('slow');

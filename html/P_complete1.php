@@ -18,6 +18,9 @@ values('".$_POST['myouzi']."','".$_POST['name']."','".$_POST['post']."','".$_POS
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="P_form.js"></script>
+  <script src="P_mobile_menu.js"></script>
+  <script src="P_PageTop.js"></script>
   <link rel="stylesheet" type="text/css" href="../com_css/P_completeM.css"/>
   <link rel="stylesheet" type="text/css" href="../com_css/P_completeT.css"/>
   <link rel="stylesheet" type="text/css" href="../com_css/P_completeP.css"/>
@@ -34,7 +37,6 @@ values('".$_POST['myouzi']."','".$_POST['name']."','".$_POST['post']."','".$_POS
            <option value="P_form.html">日本語</option>
            <option value="#">English</option>
          </select>
-         <script src="../js/P_form.js"></script>
       </form>
 
      </section>
@@ -46,16 +48,15 @@ values('".$_POST['myouzi']."','".$_POST['name']."','".$_POST['post']."','".$_POS
      <nav>
        <div class="menubtn">MENU</div>
        <ul class="navi">
-         <li><a href="#">トップ</a></li>
-         <li><a href="#">EcoEcoとは</a></li>
+         <li><a href="P_top.html">トップ</a></li>
+         <li><a href="P_profile.html">自己紹介</a></li>
          <li><a href="#">ご利用ガイド</a></li>
          <li><a href="#">営業時間・料金</a></li>
-         <li><a href="#">お問い合わせについて</a></li>
+         <li><a href="P_form.html">お問い合わせについて</a></li>
          <li><a href="#">アクセス</a></li>
        </ul>
      </nav>
 
-     <script src="../js/P_mobile_menu.js"></script>
 
    <main>
      <div class="messa">
@@ -63,13 +64,12 @@ values('".$_POST['myouzi']."','".$_POST['name']."','".$_POST['post']."','".$_POS
        <p>内容を確認次第、担当の者からご連絡いたします。</p>
      </div>
      <div class="top">
-       <p><a href="P_form.html">トップページに戻る</a></p>
+       <p><a href="P_top.html">トップページに戻る</a></p>
      </div>
    </main>
 
    <footer>
      <span id="pageTop"><a href="#"><img src="images/top3.png"/></a></span>
-     <script src="../js/P_PageTop.js"></script>
        <div class="sub_info">
         <div class="sub_info2">
           <p><a href="#">EcoEco</a></p>

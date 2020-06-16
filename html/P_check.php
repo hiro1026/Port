@@ -11,6 +11,9 @@
   <link rel="stylesheet" type="text/css" href="../check_css/P_checkM2.css"/>
   <link rel="stylesheet" type="text/css" href="../check_css/P_checkT.css"/>
   <link rel="stylesheet" type="text/css" href="../check_css/P_checkP.css"/>
+  <script src="P_form.js"></script>
+  <script src="P_mobile_menu.js"></script>
+  <script src="P_PageTop.js"></script>
   <title>お問い合わせ内容確認画面</title>
 </head>
 <body>
@@ -24,7 +27,6 @@
           <option value="P_form.html">日本語</option>
           <option value="#">English</option>
         </select>
-        <script src="../js/P_form.js"></script>
      </form>
     </section>
 
@@ -34,16 +36,14 @@
     <nav>
       <div class="menubtn">MENU</div>
       <ul class="navi">
-        <li><a href="#">トップ</a></li>
-        <li><a href="#">EcoEcoとは</a></li>
+        <li><a href="P_top.html">トップ</a></li>
+        <li><a href="P_profile.html">自己紹介</a></li>
         <li><a href="#">ご利用ガイド</a></li>
         <li><a href="#">営業時間・料金</a></li>
         <li><a href="P_form.html">お問い合わせについて</a></li>
         <li><a href="#">アクセス</a></li>
      </ul>
     </nav>
-
-      <script src="../js/P_mobile_menu.js"></script>
 
   </header>
 
@@ -123,12 +123,10 @@
 </div>
 </section>
 <span id="pageTop"><a href="#"><img src="images/top3.png"/></a></span>
-<script src="../js/P_PageTop.js"></script>
 </main>
 
 <footer>
   <span id="pageTop"><a href="#"><img src="images/top3.png"/></a></span>
-  <script src="../js/P_PageTop.js"></script>
   <div class="sub_info">
    <div class="sub_info2">
     <p><a href="#">EcoEco</a></p>
