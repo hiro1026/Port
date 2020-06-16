@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  var con = $(this);
   $('input[type="text"]').on('touchstart', function(){
     $(this).css('background', '#FFFFCC');
   })
@@ -26,7 +27,7 @@ $(document).ready(function(){
     });
   });
   $(function(){
-    $('.kenmei select').on('click', function(){
+    $('.requ').on('click', function(){
       $(this).css('background', '#FFFFCC');
     })
     .on('blur', function(){

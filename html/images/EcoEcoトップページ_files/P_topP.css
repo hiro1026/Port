@@ -1,0 +1,277 @@
+@charset "UTF-8";
+
+@media screen and (min-width:1025px){
+
+  body {
+    padding: 0;
+    margin: 0;
+  }
+
+  header label {
+    display: none;
+  }
+
+  header select {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 9em;
+    height: 30px;
+    border: 1px solid #008800;
+    border-radius: 10px;
+    padding-right: 10px;
+    padding-left: 20px;
+    margin-top: 3px;
+    margin-left: 10px;
+    color: #008800;
+  }
+
+  header .menubtn {
+    display: none;
+  }
+
+  header .navi {
+    display: flex;
+    position: relative;
+    top: -22px;
+    padding-left: 25px;
+    background-color: #008800;
+    text-align: center;
+  }
+
+  header .navi li {
+    list-style-type: none;
+    border-bottom: 2px solid #008800;
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 2.1vw;
+  }
+
+  header .navi li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  header .title h1 {
+    width: 100%;
+    text-align: center;
+    color: #008800;
+    border-bottom: 5px solid;
+    padding-right: 0;
+    padding-bottom: 10px;
+  }
+
+  header .yoyaku {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    border-top: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    margin: 0;
+    background-color: #008800;
+  }
+
+  header .yoyaku a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+  }
+
+  main .slide {
+    position: relative;
+  }
+
+  main .slide #image1 {
+    width: 100%;
+    height: 400px;
+    position: relative;
+  }
+
+  main .slide #image2 {
+    display: none;
+    width: 100%;
+    height: 400px;
+    position: absolute;
+  }
+
+  main .slide #image3 {
+    display: none;
+    width: 100%;
+    height: 400px;
+    position: absolute;
+  }
+
+  main section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  main .rogo0 {
+    text-align: center;
+  }
+
+  main .rogo0 #rogo1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #008800;
+  }
+
+  main .rogo0 #rogo2 {
+    font-size: 40px;
+    color: gold;
+  }
+
+  main article {
+    display: flex;
+    justify-content: center;
+    margin: 5px 20px;
+  }
+
+  main .info2 {
+    text-align: center;
+    padding: 10px;
+  }
+
+  main article .contents {
+    text-align: left;
+  }
+
+  main article #info1 {
+    border: 1px solid #FF3300;
+    background-color: #FF3300;
+    border-radius: 1px;
+    padding: 4px;
+    margin-left: 5px;
+    color: #FFFFFF;
+  }
+
+  main article .left {
+    padding-left: 5px;
+  }
+
+  main article .left a {
+    color: #008800;
+  }
+
+  main article #info2 {
+    border: 1px solid #3366CC;
+    background-color: #3366CC;
+    border-radius: 1px;
+    padding: 4px;
+    margin-left: 5px;
+    color: #ffffff;
+  }
+
+  main article #info3 {
+    border: 1px solid #FF3300;
+    background-color: #FF3300;
+    border-radius: 1px;
+    padding: 4px;
+    margin-left: 5px;
+    color: #ffffff;
+  }
+
+  main #itiran  {
+    text-align: center;
+  }
+
+  main #itiran a {
+    border: 1px solid #008800;;
+    padding: 10px 50px;
+    text-decoration: none;
+    color: #008800;
+  }
+
+  main .concept {
+    text-align: center;
+  }
+
+  main .concept h2 {
+    font-size: 30px;
+    color: #008800;
+  }
+
+
+  main .scroll .container {
+    display: flex;
+    margin-left: 110px;
+  }
+
+  main .scroll .container li {
+    padding: 30px;
+    margin-right: 20px;
+  }
+
+  main .scroll #img3 {
+  }
+
+  main #pagetop {
+    text-align: center;
+  }
+
+  main #pageTop {
+    border: 1px solid #008800;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    margin-top: 20px;
+    background-color: #008800;
+    text-align: center;
+  }
+
+  footer {
+    margin-top: 10px;
+  }
+
+  footer .sub_info2 {
+    background-color: #008800;
+  }
+
+  footer .sub_info2 p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    font-size: 20px;
+    border-top: 1px solid  #008800;
+    border-bottom: 2px solid #005500;
+    background-color:  #008800;
+    color: white;
+  }
+
+  footer .sub_info2 {
+    background-color: #008800;
+    color: white;
+  }
+
+  footer .sub_info2 li {
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+
+  footer .info6 {
+    position: relative;
+    top: -14px;
+    padding-top: 0;
+    padding-bottom: 10px;
+  }
+
+  footer #All {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  }
+  }

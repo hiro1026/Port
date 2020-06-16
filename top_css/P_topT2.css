@@ -1,0 +1,407 @@
+@charset "UTF-8";
+
+@media screen and (min-width:701px){
+@media screen and (max-width:850px){
+
+  body {
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    padding: 0;
+    margin: 0;
+  }
+
+  header label {
+    display: none;
+  }
+
+  header select {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 9em;
+    height: 30px;
+    border: 1px solid #008800;
+    border-radius: 10px;
+    padding-right: 10px;
+    padding-left: 20px;
+    margin-top: 3px;
+    margin-left: 10px;
+    color: #008800;
+  }
+
+  header .menubtn {
+    position: absolute;
+    top: 3px;
+    right: 20px;
+    border: 1px solid #008800;
+    border-radius: 4px;
+    padding: 3px;
+    background-color: #008800;
+    color: white;
+  }
+
+
+  header .navi {
+    width: 100%;
+    display: none;
+    position: relative;
+    top: -22px;
+    left: -40px;
+    background-color: #003300;
+  }
+
+  header .navi li {
+    list-style-type: none;
+    border: 1px solid;
+    padding: 10px;
+  }
+
+  header .navi li:first-child {
+    font-size: 20px;
+  }
+
+  header .navi a {
+    text-decoration: none;
+    color: white;
+  }
+
+  header .title h1 {
+    width: 100%;
+    text-align: center;
+    color: #008800;
+    border-bottom: 5px solid;
+    padding-right: 0;
+    padding-bottom: 10px;
+  }
+
+  header .yoyaku {
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    border-top: 1px solid #008800;
+    border-right: 1px solid #008800;
+    border-bottom: 1px solid #008800;
+    border-left: 1px solid #008800;
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    margin: 0;
+    background-color:  #008800;
+    cursor: pointer;
+  }
+
+  header .yoyaku a {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 10px;
+    margin-right: 0;
+    color: white;
+    font-size: 6vw;
+  }
+
+  main section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  main .rogo0 {
+    text-align: center;
+  }
+
+  main .rogo0 #rogo1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #008800;
+  }
+
+  main .rogo0 #rogo2 {
+    font-size: 40px;
+    color: gold;
+  }
+
+  main article  {
+    border-top: 1px solid #008800;
+    border-bottom: 1px solid #008800;
+  }
+
+  main article .content li {
+    list-style-type: none;
+    margin-right: 30px;
+    margin-left: 40px;
+  }
+
+  main article img {
+    width: 80%;
+  }
+
+  main article #info1 {
+    border: 1px solid #FF3300;
+    background-color: #FF3300;
+    border-radius: 1px;
+    padding: 4px;
+    margin-left: 5px;
+    color: #FFFFFF;
+  }
+
+  main article .left {
+    padding-left: 5px;
+  }
+
+  main article .left a {
+    color: #008800;
+  }
+
+  main article #info2 {
+    border: 1px solid #3366CC;
+    background-color: #3366CC;
+    border-radius: 1px;
+    padding: 4px;
+    margin-left: 5px;
+    color: #ffffff;
+  }
+
+  main article #info3 {
+    border: 1px solid #FF3300;
+    background-color: #FF3300;
+    border-radius: 1px;
+    padding: 4px;
+    margin-left: 5px;
+    color: #ffffff;
+  }
+
+  main #itiran  {
+    text-align: center;
+  }
+
+  main #itiran a {
+    border: 1px solid #008800;;
+    padding: 10px 50px;
+    text-decoration: none;
+    color: #008800;
+  }
+
+  main article p {
+    font-size: 15px;
+    color: #008800;
+  }
+
+  main article a {
+    font-size: 15px;
+    color: #008800;
+  }
+
+  main article #info4 {
+    border-top: 1px solid #008800;
+    padding-top: 10px;
+  }
+
+  main article #info5 {
+    border-top: 1px solid #008800;
+    padding-top: 10px;
+  }
+
+  main article #info6 {
+    border-top: 1px solid #008800;
+    border-bottom: 1px solid #008800;
+    padding-top: 10px;
+  }
+
+  main #itiran {
+    text-align: center;
+    border-bottom: 1px solid #008800;
+    padding: 10px 0;
+  }
+
+  main #itiran a {
+    border: 1px solid;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #008800;
+  }
+
+  main .concept {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  main .concept h2 {
+    color: #008800;
+  }
+
+  main .scroll .container {
+    display: flex;
+  }
+
+  main .scroll li {
+    list-style-type: none;
+  }
+
+  main .scroll .current {
+    margin-right: 120px;
+    margin-left: 120px;
+  }
+
+  main .scroll .current img {
+    width: 450px;
+  }
+
+  main .scroll .current h3 {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  main .scroll .current p {
+    text-align: center;
+  }
+
+  main .scroll .current a {
+    text-decoration: none;
+    color: #008800;
+  }
+
+  main .scroll .current2 {
+    display: none;
+    margin-left: 40px;
+    text-align: center;
+  }
+
+  main .scroll .current2 img {
+    width: 75%;
+  }
+
+  main .scroll .current2 h3 {
+    font-size: 16px;
+  }
+
+  main .scroll .current2 a {
+    text-decoration: none;
+    color: #008800;
+  }
+
+  main .scroll .current3 {
+    display: none;
+    margin-right: 20px;
+    text-align: center;
+  }
+
+  main .scroll .current3 img {
+    width: 75%;
+  }
+
+  main .scroll .current3 h3 {
+    font-size: 16px;
+  }
+
+  main .scroll .current3 a {
+    text-decoration: none;
+    color: #008800;
+  }
+
+  main .scroll .prev {
+    position: absolute;
+    top: 2450px;
+    left: 10px;
+  }
+
+  main .scroll .prev img {
+    width: 20px;
+  }
+
+  main .scroll .next {
+    position: absolute;
+    top: 2450px;
+    right: 20px;
+  }
+
+  main .scroll .next img {
+    width: 20px;
+  }
+
+  main .subInfo {
+    text-align: center;
+  }
+
+  main .subInfo2 {
+    margin-right: 30px;
+    margin-left: 100px;
+  }
+
+  main .subInfo2 p {
+    width: 80%;
+    border: 1px solid #008800;;
+    padding: 10px 20px;
+    background-color: #008800;
+}
+
+  main .subInfo2 a {
+  text-decoration: none;
+  color: white;;
+}
+
+  main #pagetop {
+    text-align: center;
+  }
+
+  main #pageTop {
+    border: 1px solid #008800;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    margin-top: 20px;
+    background-color: #008800;
+    text-align: center;
+  }
+
+  footer {
+    margin-top: 10px;
+  }
+
+  footer .sub_info2 {
+    background-color: #008800;
+  }
+
+  footer .sub_info2 p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    font-size: 20px;
+    border-top: 1px solid  #008800;
+    border-bottom: 2px solid #005500;
+    background-color:  #008800;
+    color: white;
+  }
+
+  footer .sub_info2 {
+    background-color: #008800;
+    color: white;
+  }
+
+  footer .sub_info2 li {
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+
+  footer .info6 {
+    position: relative;
+    top: -14px;
+    padding-top: 0;
+    padding-bottom: 10px;
+  }
+
+  footer #All {
+    text-align: center;
+    margin-bottom: 30px;
+}
+}
